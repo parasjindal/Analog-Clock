@@ -1,0 +1,18 @@
+.clock {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: auto;
+    line-height: 100px;
+    text-align: center;
+}
+
+.hand {
+    height: 2px;
+    width: 40px;
+    background-color: black;
+    margin: auto;
+    transform-origin: 0%;
+    transform: rotate(90deg);
+}
