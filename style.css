@@ -3,16 +3,31 @@
     width: 100px;
     border-radius: 50%;
     border: 2px solid black;
-    margin: auto;
-    line-height: 100px;
-    text-align: center;
+
 }
 
 .hand {
     height: 2px;
     width: 40px;
     background-color: black;
-    margin: auto;
     transform-origin: 0%;
-    transform: rotate(90deg);
+    margin: 50;
+    position: relative;
+}
+
+#hour {
+    background-color: blue;
+    position: absolute;
+    width: 30px;
+}
+
+#minute {
+    background-color: yellow;
+    position: absolute;
+    width: 35px;
+}
+
+#second {
+    background-color: black;
+    position: absolute;
 }
